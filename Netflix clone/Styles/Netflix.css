@@ -1,0 +1,38 @@
+body{
+    background-color: grey;
+}
+
+
+
+nav{
+    display:flex;
+    background-color: black;
+    align-items: center;
+}
+
+nav img{
+    width:300px;
+
+}
+
+.nav-bar{
+    text-align: left ;
+}
+
+.nav-bar ul li{
+
+    color: #fff;
+    margin-right: 10px;
+    list-style: none;
+    display: inline-block;
+}
+
+.nav-bar ul li a {
+    font-size: 14px;
+    
+
+    text-decoration: none;
+
+
+
+}
