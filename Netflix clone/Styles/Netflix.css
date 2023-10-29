@@ -1,5 +1,5 @@
 body{
-    background-color: grey;
+    background-color: black;
 }
 
 
@@ -20,15 +20,14 @@ nav img{
 }
 
 .nav-bar ul li{
-
-    color: #fff;
-    margin-right: 10px;
+    margin-right: 12px;
     list-style: none;
     display: inline-block;
 }
 
 .nav-bar ul li a {
     font-size: 14px;
+    color: #fff;
     
 
     text-decoration: none;
@@ -36,3 +35,128 @@ nav img{
 
 
 }
+
+.nav-bar ul :hover{
+    transition-duration: 0.5s;
+    text-decoration: underline;
+    transform: scale(1.1); 
+}
+
+
+
+
+
+/* Movie picture styles */
+
+
+.Movie-container{
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap:wrap; */
+
+    align-items: center;
+    /* background-color: aqua; */
+
+}
+
+.Movie-container h1{
+    color:#fff;
+
+}
+
+
+
+/* Movies */
+
+#movie{
+    display:flex ;
+    flex-direction: row;
+    margin-right: 10px;
+
+    
+    color:#fff;
+
+}
+
+
+
+#movie img{
+    margin-right: 15px;
+    width:100px;
+
+    height:150px;
+}
+
+
+/* tredning movie */
+
+#trending{
+    display:flex ;
+    flex-direction: row;
+    margin-right: 10px;
+
+    
+    color:#fff;
+
+}
+
+#trending img{
+    margin-right: 15px;
+    width:100px;
+
+    height:150px;
+
+}
+
+/* Popular Movies */
+
+#popular{
+    display:flex ;
+    flex-direction: row;
+    margin-right: 10px;
+
+    
+    color:#fff;
+
+}
+
+#popular img{
+    margin-right: 15px;
+    width:100px;
+
+    height:150px;
+
+}
+
+/* TV */
+
+#tv{
+    display:flex ;
+    flex-direction: row;
+    margin-right: 10px;
+
+    
+    color:#fff;
+
+}
+
+#tv img{
+    margin-right: 15px;
+    width:100px;
+
+    height:150px;
+
+}
+
+
+
+
+/* const options = {
+    method: 'GET',
+    headers: {
+      accept: 'application/json',
+      Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhMDZhNzljNWViODQwZDQwZDlhZDE3NzFmNmM1ZDU3OSIsInN1YiI6IjY1MzZkNGI1YWUzNjY4MDBhZGE3MWNlMSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.NnQQIWHS_q2aBJi0JeH0VOMrYkdetwc6LozJFvBDZH8'
+    }
+  };
+  
+  export {options} */
